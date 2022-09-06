@@ -5,7 +5,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
-    library: 'platform-at-ajs',
+    library: 'ajs',
     libraryTarget: 'umd',
     libraryExport: 'default',
     globalObject: 'this'
